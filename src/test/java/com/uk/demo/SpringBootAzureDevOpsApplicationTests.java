@@ -22,7 +22,7 @@ public class SpringBootAzureDevOpsApplicationTests {
 
 	@Test
 	public void shouldReturnDefaultMessage() throws Exception {
-		this.mockMvc.perform(get("/index").accept(MediaType.APPLICATION_JSON))
+		this.mockMvc.perform(get("/").accept(MediaType.APPLICATION_JSON))
 				.andDo(print())
 				.andExpect(status().isOk())
 				.andExpect(content().string(containsString("Welcome to Spring Boot World !")));
