@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringBootAzureWebController {
 
-    @GetMapping("/index")
+    @GetMapping("/")
     public String index() {
         return "Welcome to Spring Boot World !";
     }
