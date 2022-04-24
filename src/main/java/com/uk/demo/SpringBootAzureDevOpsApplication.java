@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-//@ComponentScan(basePackageClasses = SpringBootAzureWebController.class)
 public class SpringBootAzureDevOpsApplication {
 
 	public static void main(String[] args) {
